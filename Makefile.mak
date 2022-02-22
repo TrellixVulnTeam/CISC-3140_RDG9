@@ -1,2 +1,0 @@
-Hello:
-	echo "hello world"
