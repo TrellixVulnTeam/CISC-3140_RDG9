@@ -1,7 +1,11 @@
-# CISC-3140
-This is a repository for my class CISC 3140.
-Being used for hw assignments and projects.
+This is a repository for my class CISC-3140
 
-Derek Chun
+It is being using to submit homework and assignments
 
+<<<<<<< HEAD
 
+=======
+Take a look if you want too!
+
+ Derek Chun
+>>>>>>> d46f3b011197a68ec771970cf36454fc432f9d26
