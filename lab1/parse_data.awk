@@ -12,5 +12,3 @@ NR > 1 {for(i = 8;i <= NF;i++)
 	total = 0
 }
 
-
-
