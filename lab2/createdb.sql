@@ -9,7 +9,7 @@ INSERT INTO Cars(Car_ID, Year, Model, Make)
 SELECT Car_ID, Year, Model, Make FROM DATA
 Group by Car_ID;
 -- Create Table Judges
-CREATE TABLE Judges(Judge_ID INT, Judge_Name TEXT);
+CREATE TABLE Judges(Judge_ID INT, Judge_Name TEXT, judge_today INT, Began Datetime, ENDED Datetime, duration INT, Average INT);
 INSERT INTO Judges(Judge_ID, Judge_Name)
 SELECT Judge_ID, Judge_Name
 FROM data
@@ -32,4 +32,18 @@ CREATE TABLE Ranking AS SELECT
 Cars.Car_ID, Cars.YEAR, Cars.Model, Cars.Make, TOTAL.total
 FROM Cars, TOTAL
 WHERE Cars.Car_ID = TOTAL.Car_ID;
+
+--Updates Judges with new feilds
+CREATE TEMP TABLE counttemp(judge_ID INT,judge_today INT);
+INSERT INTO counttemp(judge_id, judge_today)
+SELECT Judge_ID, COUNT(Judge_Name)
+FROM data
+Group by Judge_ID;
+
+UPDATE Judges
+SET judge_today = (SELECT counttemp.judge_today
+FROM counttemp
+WHERE counttemp.judge_ID = Judges.Judge_ID
+);
+
 
