@@ -166,10 +166,4 @@ Vip,2008,Gli,Volkswagen,2
 226,2008,Accord,Honda,0
 237,1987,Jetta,Volkswagen,0
 243,2008,Matrix,Toyota,0
-CREATE TABLE Ranking(
-  Car_ID INT,
-  Year INT,
-  Model TEXT,
-  Make TEXT,
-  Total INT
-);
+
