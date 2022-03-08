@@ -1,3 +1,4 @@
+--CREATE Start and END time for each judge
 UPDATE Judges SET 
 Began = (SELECT Min(data.Timestamp)),
 Ended = (SELECT MAX(data.Timestamp))
