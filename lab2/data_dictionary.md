@@ -16,4 +16,22 @@ duration INT,
 Average INT
 )
 
-Car_Score(Car_ID INT PRIMARY KEY, Car_Overall INT, Mods_Overall INT)
+**Car_Score** (
+Car_ID INT PRIMARY KEY, 
+Car_Overall INT, 
+Mods_Overall INT
+)
+
+**Total** (
+Car_ID INT PRIMARY KEY,
+Total_INT
+
+)
+
+**Ranking** (
+Cars.Car_ID, 
+Cars.YEAR, 
+Cars.Model, 
+Cars.Make, 
+TOTAL.total
+)
