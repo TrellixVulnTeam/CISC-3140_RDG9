@@ -24,8 +24,7 @@ Mods_Overall INT
 
 **Total** (
 Car_ID INT PRIMARY KEY,
-Total_INT
-
+Total INT
 )
 
 **Ranking** (
