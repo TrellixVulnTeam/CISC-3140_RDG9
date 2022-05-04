@@ -1,0 +1,66 @@
+Car_ID,Year,Model,Make,Total
+83,2014,Accord,Honda,12
+31,2007,Fit,Honda,10
+65,2009,Fit,Honda,10
+Car_ID,Year,Model,Make,Total
+23,1998,Legacy,Subaru,10
+21,2009,WRX,Subaru,8
+33,2015,Sti,Subaru,8
+Car_ID,Year,Model,Make,Total
+127,2013,Tsx,Acura,10
+5,2003,Rsx,Acura,8
+48,2015,TLX,Acura,8
+Car_ID,Year,Model,Make,Total
+123,2006,Sc430,Lexus,4
+222,2015,Is250,Lexus,4
+190,1995,Sc300,Lexus,0
+Car_ID,Year,Model,Make,Total
+120,2014,"Focus st",Ford,4
+137,2017,"Focus rs",Ford,2
+167,2016,Mystang,Ford,2
+Car_ID,Year,Model,Make,Total
+30,2012,Celoster,Hyundai,6
+38,2017,"Elantra sport",Hyundai,4
+92,2017,"Elantra sport",Hyundai,0
+Car_ID,Year,Model,Make,Total
+128,2010,G37,Infiniti,10
+122,2011,M37s,Infiniti,4
+20,2009,G37,Infiniti,2
+Car_ID,Year,Model,Make,Total
+6,2016,"Golf r",Volkswagen,6
+126,2010,Eos,Volkswagen,6
+180,2011,Gti,Volkswagen,6
+Car_ID,Year,Model,Make,Total
+218,2010,Camaro,Chevy,8
+170,2014,Cruze,Chevy,4
+0,2015,Camaro,Chevy,0
+Car_ID,Year,Model,Make,Total
+3,2011,370,Nissan,8
+9,1996,240,Nissan,8
+12,1990,240,Nissan,8
+Car_ID,Year,Model,Make,Total
+142,1993,Supra,Toyota,10
+43,2011,"4 Runner",Toyota,8
+110,2011,Camry,Toyota,4
+Car_ID,Year,Model,Make,Total
+172,2014,4,Bmw,6
+111,2007,328i,Bmw,4
+2,2016,M2,Bmw,2
+Car_ID,Year,Model,Make,Total
+91,2010,Lancer,Mitsu,8
+19,2001,Evo7,Mitsu,4
+176,2014,Lancer,Mitsu,4
+Car_ID,Year,Model,Make,Total
+42,2001,Viper,Dodge,2
+Car_ID,Year,Model,Make,Total
+25,2012,C250,Mercedes,8
+84,2012,Cl63amg,Mercedes,6
+17,2016,C43,Mercedes,2
+Car_ID,Year,Model,Make,Total
+15,2014,S4,Audi,8
+116,2008,A4,Audi,6
+18,2015,S3,Audi,4
+Car_ID,Year,Model,Make,Total
+52,2007,"Speed 3",Mazda,4
+78,2015,6,Mazda,2
+79,1993,Miata,Mazda,2

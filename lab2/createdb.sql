@@ -2,6 +2,7 @@
 -- Imports data.csv into table data
 .mode csv
 .import data_lab1/data.csv data
+
 -- CREATE TABLE CAR
 CREATE TABLE Cars(Car_ID INT PRIMARY KEY, Year INT, Model TEXT, Make TEXT);
 

@@ -9,6 +9,7 @@ BEGIN {FS = ","
 NR > 1 {for(i = 8;i <= NF;i++) 
 	total += $i; 
 	print total; 
-	total = 0
+	total = 0;
+	p
 }
 
